@@ -8,7 +8,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from get_weather import get_weather_by_coords, get_coords_by_address
 
-API_TOKEN = '7883612363:AAF40N-mjwtMiG7nN0OUacSuBXpu9g3qLZM'
+API_TOKEN = 'Ваш api токен'
 
 # Инициализация бота и диспетчера
 bot = Bot(token=API_TOKEN)
